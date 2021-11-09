@@ -1,3 +1,178 @@
-p {
-  color: blue;
+:root {
+  --background-color: #2f303a;
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-color: #2196f3;
+  --first-button-text-color: #212121;
+  --second-button-text-color: #ffffff;
+}
+
+body {
+  background-color: var(--second-button-text-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo-text {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--accent-color);
+}
+.logo-accent {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link.current {
+  color: var(--main-text-color);
+}
+
+.link-nav {
+  color: var(--main-text-color);
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--accent-color);
+}
+.contacts-text-color {
+  color: var(--second-text-color);
+}
+.filter-button {
+  color: var(--first-button-text-color);
+}
+
+.filter-button:hover {
+  font-family: 'Roboto';
+  color: var(--current-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
+    0px 2px 2px rgb(0 0 0 / 12%);
+  color: var(--second-button-text-color);
+}
+.our-product-name {
+  color: var(--main-text-color);
+}
+.our-product-type {
+  color: var(--second-text-color);
+}
+.footer-background-color {
+  background-color: #2f303a;
+}
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  color: var(--second-button-text-color);
+}
+
+.logo-accent-footer {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--second-button-text-color);
+}
+
+.hidden {
+  display: none;
+}
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--current-title-color);
+  background-color: var(--secondary-bg-color);
+  border: 0;
+  border-radius: 4px;
+}
+/*-------Стили index.html--------*/
+
+.hero {
+  background-color: var(--background-color);
+}
+
+.hero-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--second-button-text-color);
+}
+
+.primer-button {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--second-button-text-color);
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+}
+.advantage-list {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.advantages-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.team-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team-role {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
