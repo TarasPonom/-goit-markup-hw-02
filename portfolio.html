@@ -4,39 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>портфолио</title>
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;family=Roboto:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
      <header>
         <nav>
-            <a href="./index.html" class="logo-text link" lang="en">Web<span class="logo-accent">Studio</span>
+            <a href="./index.html" class="logo-text" lang="en">Web<span class="logo-accent">Studio</span>
             </a>
-            <ul class="site-nav list">
+            <ul class="list">
                 <li>
-                    <a href="./index.html" class="link-nav link current">Студия</a>
+                    <a href="./index.html" class="link-nav link">Студия</a>
                 </li>
                 <li>
                     <a href="./portfolio.html" class="link-nav link current">Портфолио</a>
                 </li>
                 <li>
-                    <a href="" class="link-nav link current">Контакты</a>
+                    <a href="" class="link-nav link">Контакты</a>
                 </li>
             </ul>
         </nav>
         <div>
             <ul class="list">
                 <li>
-                    <a href="tel:+380961111111" class="contacts-text-color link">+380961111111</a>
+                    <a href="tel:+380961111111" class="contacts-text link">+380961111111</a>
                 </li>
                 <li>
-                    <a href="mailto:info@devstudio.com" class="contacts-text-color link">info@devstudio.com</a>
+                    <a href="mailto:info@devstudio.com" class="contacts-text link">info@devstudio.com</a>
                 </li>
             </ul>
         </div>
@@ -47,76 +46,89 @@
     <!--filter-list-->
     <section>
     <!--Заголовок будет скрыт-->
-    <h1 class="hidden">Портфолио</h1>
-        <div>
+    <h1>Наши роботы</h1>
             
-            <ul class="list">
-                <li>
-                    <a class="filter-button link btn" href="">Все </a>
-                </li>
-                <li>
-                    <a class="filter-button link btn" href="">Веб-сайты </a>
-                </li>
-                <li>
-                    <a class="filter-button link btn" href="">Приложения </a>
-                </li>
-                <li>
-                    <a class="filter-button link btn" href="">Дизайн </a>
-                </li>
-                <li>
-                    <a class="filter-button link btn" href="">Маркетинг </a>
-                </li>
-
-            </ul>
-        </div>
-        <!--Заголовок будет скрыт-->
-        <h2 class="hidden">наши продукты</h2>
-        <!--содержание секции-->
-        <ul class="list">           
+         <ul class="list">
             <li>
-                <img src="./images/note-book.jpg" alt="открытый ноутбук" width="370">
-                <h3 class="our-product-name" >Техноярк</h3>
-                <p class="our-product-type">Вебсайт</p>
+                <button type="button" class="filter-button button-current">Все</button>
+            </li>
+            <li>
+                <button type="button" class="filter-button">Веб сайты</button>
+            </li>
+            <li>
+                <button type="button" class="filter-button">Приложения</button>
+            </li>
+            <li>
+                <button type="button" class="filter-button">Дизайн</button>
+            </li>
+             <li>
+                <button type="button" class="filter-button">Маркетинг</button>
+            </li>
+        </ul>
+     
+        <ul class="list">
+            <li>
+                <a class="link">
+                    <img src="./images/note-book.jpg" alt="открытый ноутбук" width="370">
+                    <h2 class="our-product-title" >Техноярк</h2>
+                    <p class="our-product-type">Вебсайт</p>
+                </a>
             </li>
             <li>
                 <img src="./images/New-Orlean-vs-Golden-Star.jpg" alt="два баскетболиста борятся за мяч" width="370">
-                <h3 class="our-product-name" lang="en">Постер New Orlean vs Golden Star</h3>
-                <p class="our-product-type">Дизайн</p>
+                <h2 class="our-product-title">Постер 
+                    <span lang="en">Orlean vs Golden Star</span>
+                </h2>
+                <p class="our-product-text">Дизайн</p>
             </li>
+            
             <li>
-                <img src="./images/Seafood.jpg" alt="ресторан сеафуд" width="370">
-                <h3 class="our-product-name" lang="en">Ресторан Seafood</h3>
-                <p class="our-product-type">Приложение</p>
+                <img src="./images/Seafood.jpg" alt="логотип ресторана сеафуд" width="370">
+                <h2 class="our-product-title">Ресторан
+                    <span lang="en">Seafood</span>
+                </h2>
+                <p class="our-product-text">Приложение</p>
             </li>
+            
             <li>
                 <img src="./images/head-fones-prime.jpg" alt="наушники" width="370">
-                <h3 class="our-product-name" lang="en">Проект Prime</h3>
-                <p class="our-product-type">Маркетинг</p>
+                <h2 class="our-product-title">Проект
+                    <span lang="en">Prime</span>
+                </h2>
+                <p class="our-product-text">Маркетинг</p>
             </li>
+            
             <li>
                 <img src="./images/boxes.jpg" alt="две коробки" width="370">
-                <h3 class="our-product-name" lang="en">Проект Boxes</h3>
-                <p class="our-product-type">Приложение</p>
+                <h2 class="our-product-title">Проект
+                    <span lang="en">Boxes</span>
+                </h2>
+                 <p class="our-product-text">Приложение</p>
             </li>
+           
             <li>
                 <img src="./images/mac.jpg" alt="включенный аймак" width="370">
-                <h3 class="our-product-name" lang="en">Inspiration has no Borders</h3>
-                <p class="our-product-type">Веб-сайт</p>
+                <h2 class="our-product-title" lang="en">Inspiration has no Borders</h2>
+                <p class="our-product-text">Веб-сайт</p>
             </li>
             <li>
                 <img src="./images/magazine.jpg" alt="открытый журнал" width="370">
-                <h3 class="our-product-name" lang="en">Издание Limited Edition</h3>
-                <p class="our-product-type">Дизайн</p>
+                <h2 class="our-product-title">Издание
+                    <span lang="en">Limited Edition</span>
+                </h2>
+                <p class="our-product-text">Дизайн</p>
             </li>
             <li>
                 <img src="./images/labeltag.jpg" alt="бирка лебелтаг" width="370">
-                <h3 class="our-product-name" lang="en">Проект LAB</h3>
-                <p class="our-product-type">Маркетинг</p>
+                <h2 class="our-product-title">Проект
+                    <span lang="en">LAB</span>
+                </h2>
+                <p class="our-product-text">Маркетинг</p>
             </li>
             <li>
                 <img src="./images/growingbusiness.jpg" alt="человек печатает на ноутбуке" width="370">
-                <h3 class="our-product-name" lang="en">Growing Business</h3>
-                <p class="our-product-type">Приложение</p>
+                <h2 class="our-product-title" lang="en">Growing Business</h2>
+                <p class="our-product-text">Приложение</p>
             </li>
         </ul>
     </section>
